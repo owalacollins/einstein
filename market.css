@@ -1,0 +1,75 @@
+.kene{
+    background-image: url(image21.jpg);
+    height:800px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+h3{
+    color: rgb(120, 186, 243);
+    text-align: center;
+    font-size:30px;
+}
+p{
+    color: rgb(0, 255, 242);
+    text-align:center;
+    font-size: 18px;  
+}
+.desc{
+    text-align:left;
+    top: 50px;
+    
+}
+button{
+    padding: 5px 50px;
+    border-bottom-right-radius:30px;
+    border-color: rgb(248, 221, 221);
+    border-top-left-radius: 30px;
+    display: block;
+    background-color: transparent;
+    position:relative;
+    color: rgb(255, 251, 0);
+    font-weight:bolder;
+    border-style:dotted;
+    margin: 20px auto;
+    font-style:oblique;
+    font-family: cursive;
+    
+    
+}
+button:hover{
+    background-color: rgb(251, 255, 244);
+    outline: black;
+}
+footer{
+    height: 150px;
+    color: teal;
+    background-color: rgba(156, 97, 7, 0.363);
+    bottom: 0px;
+    width: 100vw;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.footer-bottom{
+    background:rgba(19, 18, 18, 0.795);
+    color: #ccc;
+    height:30px;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    width:100vw;
+}
+.footer,img{
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    border-color:rgb(4, 217, 255);
+    border-width:1px;
+    border-style:dotted;
+    border-radius:50%;
+}
+.social{
+    position:absolute;
+    left: 10px;
+}
