@@ -41,7 +41,7 @@ text-decoration: underline;
 }
 p{
 text-indent: 40px;
-color:yellow;
+color:rgb(247, 247, 239);
 font-size:20px;
 } 
 hr{
@@ -102,6 +102,8 @@ button:hover,button:focus{
 main{
     background-image: url(image25.jpg);
     height:734px;
+    position: relative;
+    background-size: cover;
 }
 
   h4{
@@ -112,24 +114,20 @@ main{
     font-weight: bold;
     text-indent: 0%;
   }
- body{
-     background-image: url(image5.jpg);
-     height: fit-content;
-     width: fit-content;
- }
+ 
  footer{
     height: 150px;
     color: teal;
-    background-color: rgba(156, 97, 7, 0.363);
-    bottom: 0px;
+    background-color: rgba(250, 247, 243, 0.363);
+    top:700px;
     width: 100vw;
-    position: relative;
-    box-sizing: border-box;
+    position:absolute;
+    box-sizing:border-box;
 
 }
 .footer-bottom{
-    background:rgba(19, 18, 18, 0.795);
-    color: #ccc;
+    background:rgba(252, 2, 2, 0.795);
+    color: rgb(255, 255, 255);
     height:30px;
     position: absolute;
     top: 120px;
@@ -148,4 +146,6 @@ main{
 .social{
     position:absolute;
     left: 10px;
+    top: 40px;
+    margin:0px 10px;
 }
