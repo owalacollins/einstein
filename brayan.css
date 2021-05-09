@@ -43,6 +43,7 @@ p{
 text-indent: 40px;
 color:rgb(247, 247, 239);
 font-size:20px;
+posititon:absolute;
 } 
 hr{
     color: orange;
