@@ -19,17 +19,6 @@ nav{
 li:hover{
     background-color:YELLOW;
     outline: none;
-}
-.oti{
-display: block;
-width: 200px;
-margin: 2px auto;
-border-color:rgb(47, 113, 255);
-border-width:50%;
-border-style:solid;
-border-radius:50%;
-
-
 }  
 header{
     background-image: url(image4.jpg);
@@ -129,23 +118,34 @@ main{
      width: fit-content;
  }
  footer{
-    height: 200px;
-    background-color: rgb(0, 0, 0);
+    height: 150px;
+    color: teal;
+    background-color: rgba(156, 97, 7, 0.363);
+    bottom: 0px;
+    width: 100vw;
     position: relative;
-    color:white;
- }
-    .footer-bottom{
-        background:rgba(224, 57, 6, 0.795);
-        color: #ccc;
-        height:50px;
-        position: absolute;
-        padding-top: 20px;
-        bottom: 0px;
-        left: 0px;
-        text-align: center;
-        width:100%
-    }
-.footer-content-about{
-    position: relative;
-    left: 30px;
+    box-sizing: border-box;
+
+}
+.footer-bottom{
+    background:rgba(19, 18, 18, 0.795);
+    color: #ccc;
+    height:30px;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    width:100vw;
+}
+.footer,img{
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    border-color:rgb(4, 217, 255);
+    border-width:1px;
+    border-style:dotted;
+    border-radius:50%;
+}
+.social{
+    position:absolute;
+    left: 10px;
 }
