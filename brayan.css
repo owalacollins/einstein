@@ -1,13 +1,8 @@
 
-*{
-    text-decoration: none;
-    box-sizing: border-box; 
-    padding: 0px;
-    margin: 0px;
-}
+
 nav li{
 display: inline;
-padding:  0px 10px; 
+padding:  0px 5px; 
 text-decoration: none ;  
 font-family: fantasy; 
 font-style: oblique;  
@@ -22,28 +17,29 @@ li:hover{
 }  
 header{
     background-image: url(image4.jpg);
-    width:100vw;
+    width:100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
 font-family: Verdana, Geneva, Tahoma, sans-serif; 
-font-weight: bolder;
-color:rgb(95, 252, 4);
-letter-spacing: 10px;
+color:rgb(210, 241, 191);
+letter-spacing: 5px;
 text-align: center;
-font-style: oblique;
-font-size: 30PXpx;
+font-style: italic;
+font-size: 30px;
 padding-top: 40px;
 margin-bottom: 40px;
-text-decoration: underline;
+text-decoration: double;
 
 }
 p{
 text-indent: 40px;
-color:rgb(247, 247, 239);
+color:rgb(49, 223, 14);
 font-size:20px;
-posititon:absolute;
+line-height: 25px;
+padding: 20px;
+
 } 
 hr{
     color: orange;
@@ -57,18 +53,8 @@ letter-spacing: 10px;
 font-style: inherit;    
  font-size: 30px;   
 text-decoration:underline;
-
 }     
-footer{
-    background-color:blue;
-}  
-h2{
-color: lawngreen;
-text-decoration: underline;
-font-family: monospace;
-text-align: center;
-background-color: indigo;
-}
+
 h4{
     color: black;
     text-decoration:none;
@@ -80,14 +66,18 @@ border-width: 10px;
 border-radius: 30%;    
 }
 button{
-    color: rgb(4, 245, 56);
-    padding: 10px 25px;
-    background: transparent;
-   border: 2px solid rgb(37, 247, 247);
-    border-radius: 20px;
-    margin: 5px;
-    position:relative;
-  }
+    padding: 5px 50px;
+    border-bottom-right-radius:30px;
+    border-color: rgb(248, 221, 221);
+    border-top-left-radius: 30px;
+    background-color: transparent;
+    color: rgb(255, 251, 0);
+    font-weight:bolder;
+    border-style:dotted;
+    margin:5px auto;
+    font-style:oblique;
+    font-family: cursive;
+}
 button:hover,button:focus{
     background-color:rgb(192, 255, 19);
     outline: none;
@@ -103,8 +93,8 @@ button:hover,button:focus{
 }
 main{
     background-image: url(image25.jpg);
-    height:734px;
-    position: relative;
+    height: 100%;
+    width: auto;
     background-size: cover;
 }
 
@@ -121,9 +111,8 @@ main{
     height: 150px;
     color: teal;
     background-color: rgba(250, 247, 243, 0.363);
-    top:700px;
+    bottom: 0px;
     width: 100vw;
-    position:absolute;
     box-sizing:border-box;
 
 }
@@ -152,6 +141,7 @@ main{
     margin:0px 10px;
 }
 .baton{
-    position: absolute;
-    top: 50%;
+    bottom: 0px;
+    padding-top:5px;
+    
 }
