@@ -25,7 +25,6 @@ button{
     border-color: rgb(255, 255, 255);
     border-top-left-radius: 30px;
     background-color: transparent;
-    
     color: rgb(255, 251, 0);
     font-weight:bolder;
     border-style:dotted;
@@ -44,8 +43,7 @@ h1{
 }
 .baton{
     position: relative;
-    top: 100px;
     padding: 100px;
-    margin: 0px;
+    margin: 0px auto;
 
 }
