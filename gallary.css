@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.gallery{
+    border:2px solid rgb(238, 11, 11) ;
+
+    
+}
+.gallery img{
+    width:100%;
+    height:200PX;
+    display: block;
+    margin: auto;
+} 
+.des{
+    padding:2px;
+    text-align:center;
+    color:white ;
+}
+.responsive{
+    padding: 6px 6px;
+    float:left;
+    width:25%;
+}
+body{
+    background-image: url(images/image7.jpg);
+}
+@media screen and (max-width:700px) {
+    .responsive{
+       width:25%;
+       margin:6px 0 ;
+    }
+}
+@media screen and (max-width:500px) {
+    .responsive{
+       width: 50%;
+    }
+}
+.arange{
+    width:100%;
+    height: auto;
+}
+h1{
+    color: bisque;
+}
